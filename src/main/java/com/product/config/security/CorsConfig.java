@@ -11,7 +11,7 @@ import jakarta.servlet.http.HttpServletRequest;
 
 @Component
 public class CorsConfig implements CorsConfigurationSource {
-
+	////
     @Override
     public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {
         CorsConfiguration corsConfiguration = new CorsConfiguration();
@@ -23,5 +23,5 @@ public class CorsConfig implements CorsConfigurationSource {
         return corsConfiguration;
 
     }
- //hola soy yo
+ 
 }
